@@ -24,14 +24,6 @@ public class ArrayProblem1 {
         
         //Find the Percentage of student;
         int percent=(SubjectMarks[0]+SubjectMarks[1]+SubjectMarks[2]+SubjectMarks[3]+SubjectMarks[4])/5;
-        System.out.println("percentage of student is:"+percent+"%");
-
-        // // find avarege marks
-        // int avarege=(Marks[0]+Marks[1]+Marks[2]+Marks[3]+Marks[4])/5;
-        // System.out.println("avarege marks is:"+avarege);
-
-        
-
-
+        System.out.println("percentage of student is:"+percent+"%");        
     }
 }
