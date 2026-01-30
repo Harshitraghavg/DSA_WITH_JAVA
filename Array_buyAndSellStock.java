@@ -3,9 +3,10 @@ public class Array_buyAndSellStock {
     public static int BuyAndSellStock(int prices[]){
         int buyprice=Integer.MAX_VALUE;
         int maxProfit=0;
+        
         for(int i=0;i<prices.length;i++){
-            if(buyprice<prices[i]){
-                int profit=prices[i]-buyprice;
+            if(buyprice<prices[i]){                   //this loop find the profit
+                int profit=prices[i]-buyprice;            // today's profit
                 maxProfit=Math.max(maxProfit,profit);
             }else{
                 buyprice=prices[i];
