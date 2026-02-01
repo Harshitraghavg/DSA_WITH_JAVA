@@ -1,30 +1,15 @@
 import java.util.*;
 public class Sorting_BubbleSort {
-    // public static void BubbleSort(int[] arr){
-    //     for(int turn=0;turn<arr.length-1;turn++){
-    //         for(int j=0;j<arr.length-1-turn;j++){
-    //             //swap
-    //             if(arr[j]>arr[j+1]){
-    //                 int tmp=arr[j];
-    //                 arr[j]=arr[j+1];
-    //                 arr[j+1]=tmp;
-    //             }
-                
-    //         }
-    //     }
-    // }
-
-    public static void BubbleSort(int[] arr){     //this is for sorted array
+    public static void BubbleSort(int[] arr){
         for(int turn=0;turn<arr.length-1;turn++){
-            int swap=0;
             for(int j=0;j<arr.length-1-turn;j++){
-                //swap
-                if(arr[j]>arr[j+1]){                                          //worst case -time complexity=O(n^2)
-                    int tmp=arr[j];                                            //sorted arry time complexity best case =O(n^2)
+                if(arr[j]>arr[j+1]){
+                  //swap adjacent element
+                    int temp=arr[j];
                     arr[j]=arr[j+1];
-                    arr[j+1]=tmp;
-                    swap++;  
-                }               
+                    arr[j+1]=temp;
+                }
+                
             }
         }
     }
