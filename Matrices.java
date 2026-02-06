@@ -13,12 +13,14 @@ public class Matrices {
         }
         return false;
     }
+
+    
     public static void main(String[] args){
         int matrix[][]=new int[3][3];
         int n=matrix.length;   //no. of rows
         int m=matrix[0].length; // no. of columns
         
-        
+        //print the matrix by given input
         //take matrix input
         Scanner sc=new Scanner(System.in);
         for(int i=0; i<n;i++){          //travel row bais
