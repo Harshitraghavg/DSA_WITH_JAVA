@@ -6,7 +6,7 @@ public class ArrayProblem1 {
         // Scanner sc=new Scanner(System.in);
         // Marks[0]=sc.nextInt();
         // Marks[1]=sc.nextInt();
-        // Marks[2]=sc.nextInt();
+        //Marks[2]=sc.nextInt();
         // Marks[3]=sc.nextInt();
         // Marks[4]=sc.nextInt();
         // System.out.println("chemistry:"+Marks[0]);
