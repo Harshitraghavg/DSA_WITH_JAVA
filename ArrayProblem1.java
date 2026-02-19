@@ -13,7 +13,7 @@ public class ArrayProblem1 {
         // System.out.println("Physics:"+Marks[1]);
         // System.out.println("Maths:"+Marks[2]);
         // System.out.println("Hindi:"+Marks[3]);
-        // System.out.println("English:"+Marks[4]);
+        // System.out.println("english:"+Marks[4]);
 
         int SubjectMarks[]={89,68,39,49,96}; //Array Initialization
         System.out.println("chemistry:"+SubjectMarks[0]);
